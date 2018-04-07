@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+@font-face {
+	font-family: "Aleo";
+	src: url("../fonts/aleo-regular-webfont.woff") format("woff"), url("../fonts/aleo-regular-webfont.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Aleo";
+	src: url("../fonts/aleo-bold-webfont.woff") format("woff"), url("../fonts/aleo-bold-webfont.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+body{
+	border:15px solid #ffffff;
+	font: 300 16px/1.6 "Josefin Sans";
+	color: #e8e8e8;
+	margin: 0;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1150px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+    min-height: 60px;
+    font: 400 16px/60px "Aleo", sans-serif;
+    border: none;
+    border-radius: 0;
+    background: #4e72f9;
+    padding: 0 38px;
+    letter-spacing: 0.075em;
+    color: #FFF;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #047BBF;
+}
+.ba-intro {
+	background: url(../img/ba-intro-bg.jpg) 50% no-repeat/cover;
+	text-align: center;
+	padding: 100px 0;
+
+
+}
+
+.ba-intro__title {
+	font: 700 48px/1 "Josefin Sans", sans-serif;
+	letter-spacing: .07em;
+	margin: 0;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.ba-intro__subtitle {
+	letter-spacing: .28em;
+	font-size: 22px;
+	font-weight: 400;
+	margin-bottom: 42px;
+	margin-top: 0;
+}
+
+.ba-search {
+	max-width: 650px;
+	background: #ffffff;
+	margin: 0 auto;
+	display: flex;
+	padding: 2px;
+
+}
+.ba-search__area {
+	border:none;
+	background: #fff;
+	font: 400 14px/1.85 "Josefin Sans", sans-serif;
+	letter-spacing: 0.15em;
+	flex-grow: 1;
+	text-align: center;
+}
+.ba-search__button {
+	letter-spacing: 0.1em;
+	padding: 0 14px 0 34px;
+
+
+}
+.ba-search__button img {
+
+	vertical-align: middle;
+}
+.ba-intro__scroll {
+	margin-top: 117px;
+	color: #ffffff;
+	font-size: 14px;
+	letter-spacing: 0.15em;
+	text-decoration: none;
+	display: inline-block;
+}
+.ba-intro__scroll img {
+	display: block;
+	margin: -7px auto ;
+	margin-top: 14px;
+
+}
+
+.ba-header {
+	background: #4e72f9;
+}
+.ba-logo {
+	font: 700 24px/1 "Josefin Sans", sans-serif;
+	text-decoration: none;
+	color: #FFFFFF;
+	letter-spacing: 0.07em;
+	line-height: 80px;
+}
+
+.ba-main-nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.ba-main-nav  li {
+	float: left;
+	line-height: 80px;
+	padding-left: 42px;
+
+
+}
+li:first-child {
+	padding-left: 0;
+}
+.ba-main-nav a {
+	font: 400 14px/1 "Aleo", sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+.ba-main-nav a:hover {
+	color: #047BBF;
+}
+.ba-info {
+	background: url(../img/bgrnd.jpg) 50% no-repeat/cover;
+	padding: 120px 0 ;
+}
+.ba-col--info {
+	padding-top: 75px;
+}
+.ba-info__title {
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 54px;
+	margin-top: 0;
+	font-family: "Aleo", sans-serif;
+}
+.ba-info-subtitle {
+	letter-spacing: 0.066em;
+	margin: 0 0 28px;
+
+}
+.ba-button--explore {
+	text-decoration: none;
+}
+.ba-info__img1 {
+	float: left;
+	padding-bottom: 5px;
+}
+.ba-info__img2 {
+	float: right;
+}
+
+.ba-places {
+	padding: 75px 0 110px;
+	background-color: #363636;
+	background: url(../img/arc.png) 50% no-repeat #363636;
+}
+.ba-place {
+	text-align: center;
+}
+.ba-place h4 {
+	font-size: 36px;
+	font-weight: 400;
+	font-family: "Aleo", sans-serif;
+	color: #ffffff;
+	margin: -5px 0 0;
+}
+
+.ba-place h4:hover {
+	color: #047BBF;
+}
+.ba-spain {
+	background: url(../img/spain-bg.jpg) 50% no-repeat/cover;
+	padding: 230px 0 100px;
+}
+.ba-spain__title {
+	margin:0 0 26px;
+	font: 300 20px/1.2 "Josefin Sans", sans-serif;
+}
+.ba-spain__info {
+	background: rgba(54, 54, 54, 0.9);
+	max-width: 540px;
+	padding: 48px 30px;
+
+}
+.ba-spain__subtitle {
+	margin-bottom: 20px;
+	margin-top: 0;
+	text-transform: uppercase;
+	font: 400 20px/1.2 "Josefin Sans", sans-serif;
+
+}
+.ba-spain__info p {
+	margin: 0 0 28px;
+}
+.ba-button--book {
+	padding: 0 62px;
+	margin-top: 16px;
+
+}
+.ba-madrid {
+	background: url(../img/madrid-bg.jpg) 50% no-repeat/cover;
+	padding: 229px 0 100px;
+}
+
+.ba-madrid__info {
+		background: rgba(54, 54, 54, 0.9);
+	max-width: 540px;
+	padding: 48px 30px;
+	float: right;
+}
+.ba-madrid__title {
+	margin:0 0 26px;
+	font: 300 20px/1.2 "Josefin Sans", sans-serif;
+}
+.ba-madrid__subtitle {
+	margin-bottom: 20px;
+	margin-top: 0;
+	text-transform: uppercase;
+	font: 400 20px/1.2 "Josefin Sans", sans-serif;
+
+}
+.ba-madrid__info p {
+	margin: 0 0 28px;
+}
+.ba-travel {
+	background: url(../img/travelbg.jpg) 50% no-repeat/cover;
+	padding: 111px 0 120px;
+}
+.ba-travel__title {
+	font: 400 36px/1.5 "Aleo", sans-serif;
+	margin-bottom: 54px;
+	margin-top: 0;
+	text-align: center;
+}
+.ba-travel__info {
+	display: flex;
+
+}
+.ba-travel__men {
+	width: 40%;
+}
+.ba-travel__men  {
+	flex-shrink: 0;
+
+}
+.ba-travel__say {
+	background: #363636;
+	padding: 50px 50px 30px 60px;
+	max-height: 283px;
+}
+.ba-travel__subtitle {
+	font: 300 20px/1 "Josefin Sans", sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 42px;
+	margin-top: 0;
+}
+blockquote {
+	padding: 0;
+	margin: 0;
+}
+.quote {
+	margin: 16px 0;
+
+}
